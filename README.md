@@ -44,11 +44,12 @@ If the issue persists:
 
 Check Laravel version compatibility: Ensure CRUDbooster supports your Laravel version.
 Clear cache and autoload: Run the following commands to clear caches and reload class maps:
-
-### php artisan config:clear
-### php artisan cache:clear
-### php artisan route:clear
-### composer dump-autoload
+*****
+ php artisan config:clear
+ php artisan cache:clear
+ php artisan route:clear
+ composer dump-autoload
 
 
 let me know if you have any problems
+********
