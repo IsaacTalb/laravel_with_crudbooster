@@ -46,8 +46,11 @@ Check Laravel version compatibility: Ensure CRUDbooster supports your Laravel ve
 Clear cache and autoload: Run the following commands to clear caches and reload class maps:
 *****
  php artisan config:clear
+
  php artisan cache:clear
+
  php artisan route:clear
+ 
  composer dump-autoload
 
 
